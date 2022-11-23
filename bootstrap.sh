@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# CENTOS7
+
 #Desabilitar Selinux
 sed -i s/^SELINUX=.*$/SELINUX=disabled/ /etc/selinux/config
 setenforce 0
@@ -34,6 +36,7 @@ yum install -y \
     bison \
     ccache \
     chrpath \
+    chrony \
     compat-gnutls37-devel \
     cups-devel \
     curl \
