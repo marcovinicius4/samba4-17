@@ -28,6 +28,7 @@ yum install -y \
     attr \
     autoconf \
     avahi-devel \
+    bind \
     bind-utils \
     binutils \
     bison \
